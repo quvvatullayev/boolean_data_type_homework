@@ -7,6 +7,6 @@ def main(a):
         bool
     """
     # Write your code here
-    return a == 0 or a >0 or type(a) == int
+    return a == 0 or a > 0
 
 print(main(7))
