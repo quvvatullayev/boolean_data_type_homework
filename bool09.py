@@ -1,3 +1,6 @@
+from cgi import print_arguments
+
+
 def main(a):
     """Check the natural number.Natural numbers are numbers used in counting.
     Args:
@@ -6,4 +9,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return a % 2 >= 0
+print(main(8))
