@@ -9,4 +9,4 @@ def main(a):
     # Write your code here
     return a % 2 == 1
 
-pritn(main(5))
+print(main(5))
